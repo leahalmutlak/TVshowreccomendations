@@ -1,0 +1,182 @@
+/*
+Created by Leah Leah Al-Tekreeti
+Mar 2022
+*/
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:gray;
+    margin: 0;
+    background-color: #e5e5e5;
+    }
+h1{
+
+}
+h2{
+
+}
+h3
+{
+
+}
+/*
+CSS class for the website title inside the header
+*/
+.title
+{
+    color:white;
+    font-size: 60px;
+    padding-left:30%;
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: bold;
+}
+#header
+{
+    height: 300px;
+        width: 100%;
+    background-image: url("../images/header.jpg");
+}
+#sidebar
+{    
+    width: 20%;
+    min-height: 300px;
+    float: left;
+    background-color: #e5e5e5;
+    padding-left: 10px;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li a {
+
+	display:block;
+	padding: 5px 15px;
+	color: #999;
+	border-top: 1px solid #999;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+#home-menu
+{
+    background-image: url("../images/home.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    
+}
+
+    
+
+#footer
+{
+    height: 50px;
+   /*background-image: url("../images/footer.jpg"); 
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   background-size: cover;*/
+   background-color: gray;
+   color:white;
+   padding:20px;
+
+}
+#content
+{
+
+	min-height:  300px;
+	background-color:  white;
+	width: 80%;
+	left:  20%;
+	position:  relative;
+	background-image:url("../images/movie.jpg");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 0 50px;
+}
+
+.tv-show
+{
+	display:  inline-block;
+	width:  200px;
+	height:  300px;
+
+	margin:  30px;
+	position:  relative;
+	border-radius: 25px;
+    border:5px solid lightgray;
+}
+h2
+{
+	text-align:  center;
+}
+.show-icon
+{	
+	height: 200px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.show-icon img
+{
+    width: 100%;
+}
+.review
+{
+    margin: 50px;
+}
+.revuew img 
+{
+    margin-right: 10px;
+}
+
+a{
+	text-decoration:none;
+    font-weight: bold;
+    color:gray;
+}
+a:hover{
+    text-decoration:none;
+    font-weight:bolder;
+    color:orange;
+}
+
+#imdb-icon
+{
+    margin: 5px;
+}
+#imdb-icon img
+{
+    width: 48px;
+}
+.overview
+{
+    margin: 50px;
+    text-align: justify;
+}
+#col1
+{
+    display: inline-block;
+}
+#col2
+{
+    display: inline-block;
+}
+#imdb-thumbnail
+{
+    height: 300px;
+    margin:0 50px;
+}
+table
+{
+    
+    
+}
+table td
+{
+    border:1px solid gray;
+    padding: 5px;
+}
